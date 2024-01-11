@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo>
+	<Project Name="Spatial Audio Demo_WwiseProject" GUID="{69362319-E6F4-4046-9646-F8912380F2CF}" Generator="2022.1.6.8263"/>
+	<CacheRoot>../../../../Spatial Audio Demo_WwiseProject/.cache</CacheRoot>
+	<Platforms>
+		<Platform Name="Android" GUID="{F4EEC9D5-2711-4DA8-AB45-70CC5528B561}" BasePlatform="Android" BasePlatformGUID="{A2D401DE-B8B6-4FEB-8142-137C34D507CA}" Path="../../../../Spatial Audio Demo_WwiseProject/GeneratedSoundBanks/Android"/>
+		<Platform Name="Mac" GUID="{B9398DAE-297B-469F-A78D-ED20119CBAFE}" BasePlatform="Mac" BasePlatformGUID="{9C6217D5-DD11-4795-87C1-6CE02853C540}" Path="../../../../Spatial Audio Demo_WwiseProject/GeneratedSoundBanks/Mac"/>
+		<Platform Name="Windows" GUID="{C0571494-6A96-4470-A409-FDFA457CEB6A}" BasePlatform="Windows" BasePlatformGUID="{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}" Path="../../../../Spatial Audio Demo_WwiseProject/GeneratedSoundBanks/Windows"/>
+	</Platforms>
+	<Languages>
+		<Language Name="English(US)" Id="684519430" GUID="{2FBDB981-C6E7-4CD0-9D61-3F1E5A892283}" Default="true" UseAsStandIn="true"/>
+	</Languages>
+	<FileHash>{6DFF67D0-FCB4-48A6-DA27-662D1BEE3BF8}</FileHash>
+</ProjectInfo>
