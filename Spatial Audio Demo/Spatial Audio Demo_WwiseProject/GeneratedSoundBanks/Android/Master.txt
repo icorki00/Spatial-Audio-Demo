@@ -1,0 +1,6 @@
+Event	ID	Name			Wwise Object Path	Notes
+	711420983	Play_Laser_1			\Default Work Unit\Play_Laser_1	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	26152756	Laser_1	C:\Users\Bluh1\OneDrive\Desktop\University Work\Placement\Projects\Spatial-Audio-Demo\Spatial Audio Demo\Spatial Audio Demo_WwiseProject\.cache\Android\SFX\Laser_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Laser_1		466968
+

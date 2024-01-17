@@ -22,6 +22,23 @@
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
+		<SoundBank Id="4056684167" Type="User" Language="SFX" Hash="{1391431A-1013-27F7-9416-D28BAEEEB3A3}">
+			<ShortName>Master</ShortName>
+			<Path>Master.bnk</Path>
+			<Media>
+				<File Id="26152756" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Laser_1.wav</ShortName>
+					<CachePath>SFX/Laser_1_10C4C929.wem</CachePath>
+				</File>
+			</Media>
+			<Events>
+				<Event Id="711420983" Name="Play_Laser_1" MaxAttenuation="10" DurationType="OneShot" DurationMin="2.6466668" DurationMax="2.6466668">
+					<MediaRefs>
+						<MediaRef Id="26152756"/>
+					</MediaRefs>
+				</Event>
+			</Events>
+		</SoundBank>
 	</SoundBanks>
-	<FileHash>{85FB997E-979E-429B-B6F1-CF88BB808457}</FileHash>
+	<FileHash>{0C3D7DF8-2591-CA55-5227-228C58497D50}</FileHash>
 </SoundBanksInfo>

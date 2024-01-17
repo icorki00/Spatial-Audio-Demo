@@ -1,6 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{50E0C206-C3FF-464E-9F32-38CD47D51AEF}" SchemaVersion="110">
 	<Events>
-		<WorkUnit Name="Default Work Unit" ID="{50E0C206-C3FF-464E-9F32-38CD47D51AEF}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{50E0C206-C3FF-464E-9F32-38CD47D51AEF}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="Play_Laser_1" ID="{32E1E5E2-0CA5-4877-B137-B15F93364AAF}">
+					<ChildrenList>
+						<Action Name="" ID="{030EA43F-228E-47CA-9992-0CF5F6914B1C}" ShortID="537794149">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Laser_1" ID="{F4AFFB94-A1F8-452B-8932-A5219861DF88}" WorkUnitID="{DFA82FCE-6FBA-4AC7-BAA3-04168AB6BE43}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
 	</Events>
 </WwiseDocument>
