@@ -51,6 +51,12 @@ namespace StarterAssets
 		[Tooltip("How far in degrees can you move the camera down")]
 		public float BottomClamp = -90.0f;
 
+		// Wwise events
+		[Header("Wwise Events")]
+		public AK.Wwise.Event myFootstep;
+		public AK.Wwise.Event myLanding;
+		public AK.Wwise.RTPC mySpeed;
+
 		// cinemachine
 		private float _cinemachineTargetPitch;
 
@@ -59,6 +65,11 @@ namespace StarterAssets
 		private float _rotationVelocity;
 		private float _verticalVelocity;
 		private float _terminalVelocity = 53.0f;
+
+		//Wwise
+		private bool footstepIsPlaying = false;
+		private float footstepTime = 0;
+		private bool isJumping = false;
 
 		// timeout deltatime
 		private float _jumpTimeoutDelta;
@@ -93,6 +104,8 @@ namespace StarterAssets
 			{
 				_mainCamera = GameObject.FindGameObjectWithTag("MainCamera");
 			}
+
+			footstepTime = Time.time;
 		}
 
 		private void Start()
@@ -108,6 +121,8 @@ namespace StarterAssets
 			// reset our timeouts on start
 			_jumpTimeoutDelta = JumpTimeout;
 			_fallTimeoutDelta = FallTimeout;
+
+			mySpeed.SetGlobalValue(0);
 		}
 
 		private void Update()
@@ -183,6 +198,8 @@ namespace StarterAssets
 				_speed = targetSpeed;
 			}
 
+			mySpeed.SetGlobalValue(25 * _speed);
+
 			// normalise input direction
 			Vector3 inputDirection = new Vector3(_input.move.x, 0.0f, _input.move.y).normalized;
 
@@ -192,6 +209,30 @@ namespace StarterAssets
 			{
 				// move
 				inputDirection = transform.right * _input.move.x + transform.forward * _input.move.y;
+				if (!footstepIsPlaying && !isJumping)
+				{
+
+					myFootstep.Post(gameObject);
+					footstepTime = Time.time;
+					footstepIsPlaying = true;
+
+				}
+				else
+                {
+
+					if(_speed > 1)
+                    {
+
+						if(Time.time - footstepTime > 1850 / _speed * Time.deltaTime)
+                        {
+
+							footstepIsPlaying = false;
+
+                        }
+
+                    }
+
+                }
 			}
 
 			// move the player
@@ -217,6 +258,18 @@ namespace StarterAssets
 					// the square root of H * -2 * G = how much velocity needed to reach desired height
 					_verticalVelocity = Mathf.Sqrt(JumpHeight * -2f * Gravity);
 				}
+                else
+                {
+
+					if(isJumping)
+                    {
+
+						myLanding.Post(gameObject);
+
+                    }
+					isJumping = false;
+
+                }
 
 				// jump timeout
 				if (_jumpTimeoutDelta >= 0.0f)
