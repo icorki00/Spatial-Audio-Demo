@@ -13,7 +13,8 @@ namespace AK
 {
     namespace EVENTS
     {
-        static const AkUniqueID PLAY_LASER_1 = 711420983U;
+        static const AkUniqueID PLAY_LANDING_1 = 1627160619U;
+        static const AkUniqueID PLAY_RANDOM_FOOTSTEP = 1020566968U;
     } // namespace EVENTS
 
     namespace BANKS
@@ -25,6 +26,7 @@ namespace AK
     namespace BUSSES
     {
         static const AkUniqueID MASTER_AUDIO_BUS = 3803692087U;
+        static const AkUniqueID STEP_BUS = 2379930360U;
     } // namespace BUSSES
 
     namespace AUDIO_DEVICES

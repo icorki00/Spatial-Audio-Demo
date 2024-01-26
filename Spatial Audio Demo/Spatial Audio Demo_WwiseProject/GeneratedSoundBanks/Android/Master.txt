@@ -1,6 +1,11 @@
 Event	ID	Name			Wwise Object Path	Notes
-	711420983	Play_Laser_1			\Default Work Unit\Play_Laser_1	
+	1020566968	Play_Random_Footstep			\Default Work Unit\Player_Play_Events\Play_Random_Footstep	
+	1627160619	Play_Landing_1			\Default Work Unit\Player_Play_Events\Play_Landing_1	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	26152756	Laser_1	C:\Users\Bluh1\OneDrive\Desktop\University Work\Placement\Projects\Spatial-Audio-Demo\Spatial Audio Demo\Spatial Audio Demo_WwiseProject\.cache\Android\SFX\Laser_1_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\Laser_1		466968
+	114766956	Footstep_2	C:\Users\Bluh1\OneDrive\Desktop\University Work\Placement\Projects\Spatial-Audio-Demo\Spatial Audio Demo\Spatial Audio Demo_WwiseProject\.cache\Android\SFX\Footstep_2_95CCBDEA.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Random_Footstep\Footstep_2		74144
+	543627849	Footstep_3	C:\Users\Bluh1\OneDrive\Desktop\University Work\Placement\Projects\Spatial-Audio-Demo\Spatial Audio Demo\Spatial Audio Demo_WwiseProject\.cache\Android\SFX\Footstep_3_C9D251D0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Random_Footstep\Footstep_3		80884
+	759538355	Footstep_1	C:\Users\Bluh1\OneDrive\Desktop\University Work\Placement\Projects\Spatial-Audio-Demo\Spatial Audio Demo\Spatial Audio Demo_WwiseProject\.cache\Android\SFX\Footstep_1_3983586F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Footsteps\Random_Footstep\Footstep_1		82368
+	855598691	Landing_1	C:\Users\Bluh1\OneDrive\Desktop\University Work\Placement\Projects\Spatial-Audio-Demo\Spatial Audio Demo\Spatial Audio Demo_WwiseProject\.cache\Android\SFX\Footstep_1_203D2BB4.wem		\Actor-Mixer Hierarchy\Default Work Unit\Landing\Landing_1		64212
+	924683478	Landing_2	C:\Users\Bluh1\OneDrive\Desktop\University Work\Placement\Projects\Spatial-Audio-Demo\Spatial Audio Demo\Spatial Audio Demo_WwiseProject\.cache\Android\SFX\Footstep_1_E53F2A91.wem		\Actor-Mixer Hierarchy\Default Work Unit\Landing\Landing_2		65872
 

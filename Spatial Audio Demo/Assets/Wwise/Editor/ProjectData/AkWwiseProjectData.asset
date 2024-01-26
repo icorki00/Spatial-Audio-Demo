@@ -38,7 +38,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 6e87e591e35e9848950a7bd35af23dd1
     GuidInternal: 
-    m_lastTime: -8584966379715914670
+    m_lastTime: -8584953412231219185
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -54,6 +54,23 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: Step_Bus
+      guid: e7674bf4964cc44e98dd53d0c6b9e1f1
+      id: 2379930360
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 6e87e591e35e9848950a7bd35af23dd1
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Step_Bus
+        ObjectType: 2
+        guid: e7674bf4964cc44e98dd53d0c6b9e1f1
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Step_Bus
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -66,7 +83,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: d29d182d7ee42b48bf301e593a915b1d
     GuidInternal: 
-    m_lastTime: -8584961129214110303
+    m_lastTime: -8584953374540442691
     List:
     - name: Master
       guid: 31809c272b7c8b428df49be75036c4d6
@@ -94,11 +111,11 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 06c2e050ffc34e469f3238cd47d51aef
     GuidInternal: 
-    m_lastTime: -8584961129214033702
+    m_lastTime: -8584953374640243628
     List:
-    - name: Play_Laser_1
-      guid: e2e5e132a50c7748b137b15f93364aaf
-      id: 711420983
+    - name: Play_Landing_1
+      guid: 6ff49e56ca64d64ba517809108175fec
+      id: 1627160619
       PathAndIcons:
       - ElementName: Events
         ObjectType: 5
@@ -106,13 +123,53 @@ MonoBehaviour:
       - ElementName: Default Work Unit
         ObjectType: 12
         guid: 06c2e050ffc34e469f3238cd47d51aef
-      - ElementName: Play_Laser_1
+      - ElementName: Player_Play_Events
+        ObjectType: 4
+        guid: 2b6a2688260d8045bf369f6775c55e6d
+      - ElementName: Play_Landing_1
         ObjectType: 3
-        guid: e2e5e132a50c7748b137b15f93364aaf
-      Path: Events\Default Work Unit\Play_Laser_1
-      maxAttenuation: 10
-      maxDuration: 2.6466668
-      minDuration: 2.6466668
+        guid: 6ff49e56ca64d64ba517809108175fec
+      Path: Events\Default Work Unit\Player_Play_Events\Play_Landing_1
+      maxAttenuation: 0
+      maxDuration: 0.61346
+      minDuration: 0.61346
+    - name: Play_Random_Footstep
+      guid: 8d43fff720168a4190b3f595c78e9034
+      id: 1020566968
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 06c2e050ffc34e469f3238cd47d51aef
+      - ElementName: Player_Play_Events
+        ObjectType: 4
+        guid: 2b6a2688260d8045bf369f6775c55e6d
+      - ElementName: Play_Random_Footstep
+        ObjectType: 3
+        guid: 8d43fff720168a4190b3f595c78e9034
+      Path: Events\Default Work Unit\Player_Play_Events\Play_Random_Footstep
+      maxAttenuation: 0
+      maxDuration: 0.4664007
+      minDuration: 0.41977173
+    - name: Player_Play_Events
+      guid: 2b6a2688260d8045bf369f6775c55e6d
+      id: 306444589
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 06c2e050ffc34e469f3238cd47d51aef
+      - ElementName: Player_Play_Events
+        ObjectType: 4
+        guid: 2b6a2688260d8045bf369f6775c55e6d
+      Path: Events\Default Work Unit\Player_Play_Events
+      maxAttenuation: 0
+      maxDuration: -1
+      minDuration: -1
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -170,7 +227,7 @@ MonoBehaviour:
     m_lastTime: -8584966379715754636
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0600000007000000090000000b000000
+  ExpandedWaapiItemIds: 05000000060000000700000008000000090000000b000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

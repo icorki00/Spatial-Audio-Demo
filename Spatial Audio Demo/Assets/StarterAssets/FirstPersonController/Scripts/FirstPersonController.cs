@@ -55,7 +55,6 @@ namespace StarterAssets
 		[Header("Wwise Events")]
 		public AK.Wwise.Event myFootstep;
 		public AK.Wwise.Event myLanding;
-		public AK.Wwise.RTPC mySpeed;
 
 		// cinemachine
 		private float _cinemachineTargetPitch;
@@ -122,7 +121,7 @@ namespace StarterAssets
 			_jumpTimeoutDelta = JumpTimeout;
 			_fallTimeoutDelta = FallTimeout;
 
-			mySpeed.SetGlobalValue(0);
+			
 		}
 
 		private void Update()
@@ -198,7 +197,7 @@ namespace StarterAssets
 				_speed = targetSpeed;
 			}
 
-			mySpeed.SetGlobalValue(25 * _speed);
+			
 
 			// normalise input direction
 			Vector3 inputDirection = new Vector3(_input.move.x, 0.0f, _input.move.y).normalized;
@@ -257,6 +256,7 @@ namespace StarterAssets
 				{
 					// the square root of H * -2 * G = how much velocity needed to reach desired height
 					_verticalVelocity = Mathf.Sqrt(JumpHeight * -2f * Gravity);
+					isJumping = true;
 				}
                 else
                 {

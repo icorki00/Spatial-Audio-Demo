@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{97E3ECE0-57A7-67B2-9351-D7D5459B66B1}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{6B22197F-DE1C-18A3-EBA9-C816D7BECB56}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -19,26 +19,51 @@
 				</AudioDevices>
 			</Plugins>
 			<Busses>
+				<Bus Id="2379930360" Name="Step_Bus"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
 		</SoundBank>
-		<SoundBank Id="4056684167" Type="User" Language="SFX" Hash="{1391431A-1013-27F7-9416-D28BAEEEB3A3}">
+		<SoundBank Id="4056684167" Type="User" Language="SFX" Hash="{EF92311A-73E1-FB3B-FCC5-C8E670811DA9}">
 			<ShortName>Master</ShortName>
 			<Path>Master.bnk</Path>
 			<Media>
-				<File Id="26152756" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Laser_1.wav</ShortName>
-					<CachePath>SFX/Laser_1_10C4C929.wem</CachePath>
+				<File Id="114766956" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footstep_2.wav</ShortName>
+					<CachePath>SFX/Footstep_2_95CCBDEA.wem</CachePath>
+				</File>
+				<File Id="543627849" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footstep_3.wav</ShortName>
+					<CachePath>SFX/Footstep_3_C9D251D0.wem</CachePath>
+				</File>
+				<File Id="759538355" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footstep_1.wav</ShortName>
+					<CachePath>SFX/Footstep_1_3983586F.wem</CachePath>
+				</File>
+				<File Id="855598691" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footstep_1.wav</ShortName>
+					<CachePath>SFX/Footstep_1_203D2BB4.wem</CachePath>
+				</File>
+				<File Id="924683478" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Footstep_1.wav</ShortName>
+					<CachePath>SFX/Footstep_1_E53F2A91.wem</CachePath>
 				</File>
 			</Media>
 			<Events>
-				<Event Id="711420983" Name="Play_Laser_1" MaxAttenuation="10" DurationType="OneShot" DurationMin="2.6466668" DurationMax="2.6466668">
+				<Event Id="1627160619" Name="Play_Landing_1" DurationType="OneShot" DurationMin="0.61346" DurationMax="0.61346">
 					<MediaRefs>
-						<MediaRef Id="26152756"/>
+						<MediaRef Id="855598691"/>
+						<MediaRef Id="924683478"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1020566968" Name="Play_Random_Footstep" DurationType="OneShot" DurationMin="0.41977173" DurationMax="0.4664007">
+					<MediaRefs>
+						<MediaRef Id="114766956"/>
+						<MediaRef Id="543627849"/>
+						<MediaRef Id="759538355"/>
 					</MediaRefs>
 				</Event>
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{4BAE2712-4EF8-7957-354E-85B85BF04082}</FileHash>
+	<FileHash>{41512D73-70BD-CCCA-45C9-BFD8DCB37254}</FileHash>
 </SoundBanksInfo>

@@ -5,7 +5,8 @@
 			<ChildrenList>
 				<SoundBank Name="Master" ID="{279C8031-7C2B-428B-8DF4-9BE75036C4D6}">
 					<ObjectInclusionList>
-						<ObjectRef Name="Play_Laser_1" ID="{32E1E5E2-0CA5-4877-B137-B15F93364AAF}" WorkUnitID="{50E0C206-C3FF-464E-9F32-38CD47D51AEF}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Random_Footstep" ID="{F7FF438D-1620-418A-90B3-F595C78E9034}" WorkUnitID="{50E0C206-C3FF-464E-9F32-38CD47D51AEF}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Play_Landing_1" ID="{569EF46F-64CA-4BD6-A517-809108175FEC}" WorkUnitID="{50E0C206-C3FF-464E-9F32-38CD47D51AEF}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

@@ -3,17 +3,42 @@
 	<Events>
 		<WorkUnit Name="Default Work Unit" ID="{50E0C206-C3FF-464E-9F32-38CD47D51AEF}" PersistMode="Standalone">
 			<ChildrenList>
-				<Event Name="Play_Laser_1" ID="{32E1E5E2-0CA5-4877-B137-B15F93364AAF}">
+				<Folder Name="Player_Play_Events" ID="{88266A2B-0D26-4580-BF36-9F6775C55E6D}" ShortID="865950560">
 					<ChildrenList>
-						<Action Name="" ID="{030EA43F-228E-47CA-9992-0CF5F6914B1C}" ShortID="537794149">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Laser_1" ID="{F4AFFB94-A1F8-452B-8932-A5219861DF88}" WorkUnitID="{DFA82FCE-6FBA-4AC7-BAA3-04168AB6BE43}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
+						<Event Name="Play_Random_Footstep" ID="{F7FF438D-1620-418A-90B3-F595C78E9034}">
+							<ChildrenList>
+								<Action Name="" ID="{EAD88A5F-88AA-4EE4-9BD1-1715E4C56C5A}" ShortID="422004603">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Random_Footstep" ID="{1C5C555B-2172-4870-AF70-725DBE842181}" WorkUnitID="{DFA82FCE-6FBA-4AC7-BAA3-04168AB6BE43}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Play_Landing_1" ID="{569EF46F-64CA-4BD6-A517-809108175FEC}">
+							<ChildrenList>
+								<Action Name="" ID="{FE7C2C21-CD43-4BB3-B8CE-DB00F3E46088}" ShortID="240521915">
+									<PropertyList>
+										<Property Name="Delay" Type="Real64" Value="0.25"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Landing_1" ID="{EA490CDA-26CD-4FA9-91BB-9357D468EBDC}" WorkUnitID="{DFA82FCE-6FBA-4AC7-BAA3-04168AB6BE43}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+								<Action Name="" ID="{06D4E049-9A5F-4BD9-BFA5-E00945220483}" ShortID="466435932">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Landing_2" ID="{5448750D-97B3-43E3-86DD-1CD0C5B12D94}" WorkUnitID="{DFA82FCE-6FBA-4AC7-BAA3-04168AB6BE43}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
-				</Event>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
