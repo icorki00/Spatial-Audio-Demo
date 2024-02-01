@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{6B22197F-DE1C-18A3-EBA9-C816D7BECB56}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{25C2CACD-00AF-E549-82B6-8BFD750B3C9F}">
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
 			<Plugins>
@@ -22,6 +22,15 @@
 				<Bus Id="2379930360" Name="Step_Bus"/>
 				<Bus Id="3803692087" Name="Master Audio Bus"/>
 			</Busses>
+			<StateGroups>
+				<StateGroup Id="266985526" Name="TestGroup">
+					<States>
+						<State Id="748895195" Name="None"/>
+						<State Id="930712164" Name="Off"/>
+						<State Id="1651971902" Name="On"/>
+					</States>
+				</StateGroup>
+			</StateGroups>
 		</SoundBank>
 		<SoundBank Id="4056684167" Type="User" Language="SFX" Hash="{EF92311A-73E1-FB3B-FCC5-C8E670811DA9}">
 			<ShortName>Master</ShortName>
@@ -65,5 +74,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{41512D73-70BD-CCCA-45C9-BFD8DCB37254}</FileHash>
+	<FileHash>{06BD5FD1-3EAB-2664-A2B1-7FC4E0AD04FD}</FileHash>
 </SoundBanksInfo>

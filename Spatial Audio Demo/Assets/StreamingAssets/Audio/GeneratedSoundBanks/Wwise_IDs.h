@@ -17,6 +17,22 @@ namespace AK
         static const AkUniqueID PLAY_RANDOM_FOOTSTEP = 1020566968U;
     } // namespace EVENTS
 
+    namespace STATES
+    {
+        namespace TESTGROUP
+        {
+            static const AkUniqueID GROUP = 266985526U;
+
+            namespace STATE
+            {
+                static const AkUniqueID NONE = 748895195U;
+                static const AkUniqueID OFF = 930712164U;
+                static const AkUniqueID ON = 1651971902U;
+            } // namespace STATE
+        } // namespace TESTGROUP
+
+    } // namespace STATES
+
     namespace BANKS
     {
         static const AkUniqueID INIT = 1355168291U;

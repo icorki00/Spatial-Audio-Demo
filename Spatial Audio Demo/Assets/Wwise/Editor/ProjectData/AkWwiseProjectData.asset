@@ -83,7 +83,7 @@ MonoBehaviour:
     ParentPath: SoundBanks\Default Work Unit
     guid: d29d182d7ee42b48bf301e593a915b1d
     GuidInternal: 
-    m_lastTime: -8584953374540442691
+    m_lastTime: -8584948285995671891
     List:
     - name: Master
       guid: 31809c272b7c8b428df49be75036c4d6
@@ -111,7 +111,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 06c2e050ffc34e469f3238cd47d51aef
     GuidInternal: 
-    m_lastTime: -8584953374640243628
+    m_lastTime: -8584948285995621868
     List:
     - name: Play_Landing_1
       guid: 6ff49e56ca64d64ba517809108175fec
@@ -196,8 +196,74 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 71a84015ffb77c47bc0995e1b2634e7d
     GuidInternal: 
-    m_lastTime: -8584966379715804639
-    List: []
+    m_lastTime: -8584949153452129023
+    List:
+    - name: TestGroup
+      guid: af231f60c3194244871cac9473d474f2
+      id: 266985526
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 71a84015ffb77c47bc0995e1b2634e7d
+      - ElementName: TestGroup
+        ObjectType: 9
+        guid: af231f60c3194244871cac9473d474f2
+      Path: States\Default Work Unit\TestGroup
+      values:
+      - name: None
+        guid: 5fd30639ba34f2438c15638b1ce01476
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 71a84015ffb77c47bc0995e1b2634e7d
+        - ElementName: TestGroup
+          ObjectType: 9
+          guid: af231f60c3194244871cac9473d474f2
+        - ElementName: None
+          ObjectType: 8
+          guid: 5fd30639ba34f2438c15638b1ce01476
+      - name: Off
+        guid: 633d33b4daa93347847625b56fa6a6cf
+        id: 930712164
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 71a84015ffb77c47bc0995e1b2634e7d
+        - ElementName: TestGroup
+          ObjectType: 9
+          guid: af231f60c3194244871cac9473d474f2
+        - ElementName: Off
+          ObjectType: 8
+          guid: 633d33b4daa93347847625b56fa6a6cf
+      - name: On
+        guid: 10c47b66e8423e48b9b68edab78bf6fc
+        id: 1651971902
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 71a84015ffb77c47bc0995e1b2634e7d
+        - ElementName: TestGroup
+          ObjectType: 9
+          guid: af231f60c3194244871cac9473d474f2
+        - ElementName: On
+          ObjectType: 8
+          guid: 10c47b66e8423e48b9b68edab78bf6fc
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
   SwitchWwu:
   - PhysicalPath: Switches\Default Work Unit.wwu
     PathAndIcons:
@@ -227,7 +293,7 @@ MonoBehaviour:
     m_lastTime: -8584966379715754636
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000700000008000000090000000b000000
+  ExpandedWaapiItemIds: 05000000060000000700000008000000090000000b0000000c0000000d000000b7000000b800000008010000090100000a010000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

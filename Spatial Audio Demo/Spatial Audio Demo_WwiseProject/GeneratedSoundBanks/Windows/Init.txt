@@ -1,3 +1,11 @@
+State Group	ID	Name			Wwise Object Path	Notes
+	266985526	TestGroup			\Default Work Unit\TestGroup	
+
+State	ID	Name	State Group			Notes
+	748895195	None	TestGroup			
+	930712164	Off	TestGroup			
+	1651971902	On	TestGroup			
+
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	2379930360	Step_Bus			\Default Work Unit\Master Audio Bus\Step_Bus	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
