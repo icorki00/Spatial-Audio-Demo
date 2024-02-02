@@ -32,7 +32,7 @@
 				<Property Name="GenerateSoundBanks\x64_SelectedPlatforms" Type="string" Value="lBRXwJZqcESkCf36RXzrag=="/>
 				<Property Name="GenerateSoundBanks\x64_SelectedSoundBanks" Type="string" Value="MYCcJyt8i0KN9JvnUDbE1g=="/>
 				<Property Name="HardwareController\CurrentSession" Type="string" Value="{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}"/>
-				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups_v2" Type="string" Value="mmtwl25CE0CBtUGh3VEcbQEAT9aXAAAAwJRdDPx/AAA4AWeN/QEAAAAAAAD9AQAAwJRdDPx/AAA0lGQM/H8AAEBJbJr9AQAAAAAAAP0BAAAIAAAAAAAAAIjjT9aXAAAAkBB5DPx/AACvEXkM/H8AAJAQeQz8fwAAwJRdDPx/AADAlF0M/H8AADgBZ439AQAAAQAAAN5YQaCbzm5BsdxN73jy/RkBAE/WlwAAAMCUXQz8fwAAOAFnjf0BAAAAAAAA/QEAAMCUXQz8fwAANJRkDPx/AABASWya/QEAAAAAAAD9AQAACAAAAAAAAACI40/WlwAAAJAQeQz8fwAArxF5DPx/AACQEHkM/H8AAMCUXQz8fwAAwJRdDPx/AAA4AWeN/QEAAAEAAAA="/>
+				<Property Name="HardwareController\{2451DD2E-A7B2-45E6-B93B-6F49B9B887AD}\x64_ActiveGroups_v2" Type="string" Value="3lhBoJvObkGx3E3vePL9GQEAD8DHAAAAwJRjAf5/AABIdfEGvQIAAAAAAAC9AgAAwJRjAf5/AAA0lI4B/n8AANDSlCy9AgAAAAAAAL0CAAAIAAAAAAAAAHjlD8DHAAAAkBCjAf5/AACvEaMB/n8AAJAQowH+fwAAwJRjAf5/AADAlGMB/n8AAEh18Qa9AgAAAQAAAJprcJduQhNAgbVBod1RHG0BAA/AxwAAAMCUYwH+fwAASHXxBr0CAAAAAAAAvQIAAMCUYwH+fwAANJSOAf5/AADQ0pQsvQIAAAAAAAC9AgAACAAAAAAAAAB45Q/AxwAAAJAQowH+fwAArxGjAf5/AACQEKMB/n8AAMCUYwH+fwAAwJRjAf5/AABIdfEGvQIAAAEAAAA="/>
 				<Property Name="MeterView\LastObject1" Type="string" Value="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"/>
 				<Property Name="MeterView\MeterMode1" Type="int32" Value="1"/>
 				<Property Name="MeterView\MeterMode1Viewpoint0" Type="int32" Value="1"/>
@@ -43,10 +43,10 @@
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFilterVersion" Type="int32" Value="1"/>
 				<Property Name="MonitoringManager\GameObjectFilter\GameObjectFiltersEnable" Type="bool" Value="True"/>
 				<Property Name="MonitoringManager\GameObjectFilter\x64_GameObjectFilters" Type="string" Value=""/>
-				<Property Name="ObjectTabPanel\x64_CurrentObjects_{4CE353FD-F5F0-4BF7-9940-DE59D3FBCBA8}" Type="string" Value="ewAxAEMANQBDADUANQA1AEIALQAyADEANwAyAC0ANAA4ADcAMAAtAEEARgA3ADAALQA3ADIANQBEAEIARQA4ADQAMgAxADgAMQB9AAAAAAE="/>
+				<Property Name="ObjectTabPanel\x64_CurrentObjects_{4CE353FD-F5F0-4BF7-9940-DE59D3FBCBA8}" Type="string" Value="ewAyAEYARQAwADcAOAA5ADMALQA3ADYANwAzAC0ANABDAEQAOQAtAEIAMAAwAEEALQAzADIANABEADIARQA5AEIAMgAwAEEANAB9AAAAAAE="/>
 				<Property Name="ObjectTabPanel\x64_CurrentObjects_{A9753817-DE3D-4707-84AB-BB0DF43EFE9F}" Type="string" Value="ewBGADcARgBGADQAMwA4AEQALQAxADYAMgAwAC0ANAAxADgAQQAtADkAMABCADMALQBGADUAOQA1AEMANwA4AEUAOQAwADMANAB9AAAAAQF7AEUAQQA0ADkAMABDAEQAQQAtADIANgBDAEQALQA0AEYAQQA5AC0AOQAxAEIAQgAtADkAMwA1ADcARAA0ADYAOABFAEIARABDAH0AAAAAAXsANQA2ADkARQBGADQANgBGAC0ANgA0AEMAQQAtADQAQgBEADYALQBBADUAMQA3AC0AOAAwADkAMQAwADgAMQA3ADUARgBFAEMAfQAAAAEB"/>
 				<Property Name="ProjectExplorer\AudioSelectionChannel1\ProjectExplorer2LastScrollState" Type="int32" Value="0"/>
-				<Property Name="ProjectExplorer\AudioSelectionChannel1\x64_ProjectExplorer2LastExpandedState" Type="string" Value="iC8JJ1oiVBFnJcijTz1EguraiCN1l8ZGou3FIio5d1Zuh+WR416YSJUKe9Na8j3R2KQUFaYdKkGhfnXKDCFJ8/i7p17AZFBKiCGgfoviHWjOL6jfum/HSrqjBBaKtr5DUarGhf/C50qtl0Q96zJsrltVXBxyIXBIr3ByXb6EIYEf1COaJLE4S4+qsF8SGqDQZtP+STC1qEKZO5JIc6q3Bw=="/>
+				<Property Name="ProjectExplorer\AudioSelectionChannel1\x64_ProjectExplorer2LastExpandedState" Type="string" Value="iC8JJ1oiVBFnJcijTz1EguraiCN1l8ZGou3FIio5d1Zuh+WR416YSJUKe9Na8j3R2KQUFaYdKkGhfnXKDCFJ8/i7p17AZFBKiCGgfoviHWjOL6jfum/HSrqjBBaKtr5D47hibbTQgE+zypd2GbA2OVGqxoX/wudKrZdEPesybK5bVVwcciFwSK9wcl2+hCGBH9QjmiSxOEuPqrBfEhqg0GbT/kkwtahCmTuSSHOqtwc="/>
 				<Property Name="ProjectExplorer\EventsSelectionChannel1\ProjectExplorer2LastScrollState" Type="int32" Value="0"/>
 				<Property Name="ProjectExplorer\EventsSelectionChannel1\x64_ProjectExplorer2LastExpandedState" Type="string" Value="/PCbpkrYfEir3Vb3HLKhJgbC4FD/w05GnzI4zUfVGu8raiaIJg2ARb82n2d1xV5t3vWaMB8D4Eybm8ClNidTQw=="/>
 				<Property Name="ProjectExplorer\Game SyncsSelectionChannel1\ProjectExplorer2LastScrollState" Type="int32" Value="0"/>

@@ -173,6 +173,35 @@
 						</Sound>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Bee_Automation" ID="{6D62B8E3-D0B4-4F80-B3CA-977619B03639}" ShortID="483792724">
+					<ChildrenList>
+						<Sound Name="Bees_1" ID="{2FE07893-7673-4CD9-B00A-324D2E9B20A4}" ShortID="160827615">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E0ABB055-1638-4C49-8DD8-A66A52AA10E2}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{91E5876E-5EE3-4898-950A-7BD35AF23DD1}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="198807__hanuman81__urban-bees" ID="{A7621DFC-FA34-45C8-9937-1BBA6EFC8865}">
+									<Language>SFX</Language>
+									<AudioFile>198807__hanuman81__urban-bees.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="417401374"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{F86F66FF-B045-489B-81C9-AEC5F1CA1253}"/>
+							</PositioningInfo>
+							<ActiveSourceList>
+								<ActiveSource Name="198807__hanuman81__urban-bees" ID="{A7621DFC-FA34-45C8-9937-1BBA6EFC8865}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
